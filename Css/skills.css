@@ -1,0 +1,141 @@
+@font-face {
+    font-family: titillium;
+    src: url('../Fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf');
+}
+@font-face {
+    font-family: titillium_bold;
+    src: url('../Fonts/Titillium_Web/TitilliumWeb-Bold.ttf');
+}
+@font-face {
+    font-family: CHHL;
+    src: url('../Fonts/cooper-hewitt/CooperHewitt-HeavyItalic.otf');
+}
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+#porch_picture {
+    width: 370px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom:0px;
+    font-size: larger;
+    border-style:solid;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: black solid 5px;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: larger;
+    border-style:solid;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: black solid 5px;
+    border-bottom: none;
+    max-height: 100px;
+    align-items: center;   
+}
+
+.header_links{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border: black solid 4px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(242, 247, 197);
+    font-family: titillium;
+}
+
+#footer_links {
+    text-decoration: none;
+    color: black;
+    font-size: 75px;
+    background-color: white;
+    padding: 5px;
+    border: black solid 4px;
+    margin-top: 40px;
+    background-color: rgb(242, 247, 197);
+    font-family: titillium;
+}
+
+.header_links:hover {
+    color: rgb(34, 31, 31);
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 33px;
+    font-family: titillium_bold;
+}
+
+#footer_links:hover{
+    color: rgb(34, 31, 31);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: titillium_bold;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 2fr 4fr 2fr;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 800px;
+    background-color: rgb(241, 242, 176);
+}
+
+#skills_link {
+    background-color: rgb(255, 219, 219);
+}
+
+#skills_link:hover {
+    font-size: 30px;
+    background-color: rgb(255, 219, 219);
+    color: black;
+    font-weight: 100;
+    font-family: titillium;
+}
+
+summary {
+    font-size: 23px;
+    font-family: Playfair Display;
+}
+
+summary:hover {
+    font-weight: bolder;
+}
+
+#skills_details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: black solid 10px;
+    margin: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(242, 247, 197);
+    width: 750px;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 17.5px;
+    font-family: Playfair Display;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: titillium_bold;
+}

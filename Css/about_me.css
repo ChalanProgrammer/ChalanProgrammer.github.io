@@ -1,0 +1,145 @@
+@font-face {
+    font-family: titillium;
+    src: url('../Fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf');
+}
+@font-face {
+    font-family: titillium_bold;
+    src: url('../Fonts/Titillium_Web/TitilliumWeb-Bold.ttf');
+}
+@font-face {
+    font-family: CHHL;
+    src: url('../Fonts/cooper-hewitt/CooperHewitt-HeavyItalic.otf');
+}
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom:0px;
+    font-size: larger;
+    border-style:solid;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: black solid 5px;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: larger;
+    border-style:solid;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: black solid 5px;
+    border-bottom: none;
+    max-height: 100px;
+    align-items: center;
+    
+}
+.header_links{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border: black solid 4px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(242, 247, 197);
+    font-family: titillium;
+}
+.header_links:hover {
+    color: rgb(34, 31, 31);
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 33px;
+    font-family: titillium_bold;
+}
+#footer_links {
+    text-decoration: none;
+    color: black;
+    font-size: 75px;
+    background-color: white;
+    padding: 5px;
+    border: black solid 4px;
+    margin-top: 40px;
+    background-color: rgb(242, 247, 197);
+    font-family: titillium;
+}
+#footer_links:hover{
+    color: rgb(34, 31, 31);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: titillium_bold;
+}
+#about_me_button {
+    background-color: rgb(255, 219, 219);
+}
+#about_me_button:hover {
+    font-size: 30px;
+    background-color: rgb(255, 219, 219);
+    color: black;
+    font-weight: 100;
+    font-family: titillium;
+}
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 800px;
+    background-color: rgb(241, 242, 176);
+}
+.paragraphs {
+    display: flex;
+    align-items: flex-end;
+}
+#about_me_container {
+   display: flex;
+}
+#paragraphs {
+    font-family: Playfair Display;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-family: Playfair Display;
+}
+#picture {
+    width: 370px;
+    padding-left: 10px;
+}
+h1 {
+    max-height: 50px;
+    text-align: center;
+    font-weight:bold;
+    font-family: titillium_bold;
+}
+/*Meteor shower animation under the about me*/
+.ms span {
+    text-decoration: underline 2px black;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 6px;
+    animation: meteor-shower-anim linear 1400ms infinite forwards
+  }
+  
+  .ms span:nth-of-type(1) {animation-delay: 0ms}
+.ms span:nth-of-type(2) {animation-delay: 100ms}
+.ms span:nth-of-type(3) {animation-delay: 200ms}
+.ms span:nth-of-type(4) {animation-delay: 300ms}
+.ms span:nth-of-type(5) {animation-delay: 400ms}
+.ms span:nth-of-type(6) {animation-delay: 500ms}
+.ms span:nth-of-type(7) {animation-delay: 600ms}
+.ms span:nth-of-type(8) {animation-delay: 700ms}
+.ms span:nth-of-type(9) {animation-delay: 800ms}
+.ms span:nth-of-type(10) {animation-delay: 900ms}
+.ms span:nth-of-type(11) {animation-delay: 1000ms}
+.ms span:nth-of-type(12) {animation-delay: 1100ms}
+.ms span:nth-of-type(13) {animation-delay: 1200ms}
+
+@keyframes meteor-shower-anim {
+    0% { text-decoration-color: rgba(255, 149, 0, 0.817) }
+    10% { text-decoration-color: LightYellow }
+    70% { text-decoration-color: black }
+}
