@@ -98,6 +98,8 @@ body {
 }
 #about_me_container {
    display: flex;
+    background-color: rgb(242, 247, 197);
+;
 }
 #paragraphs {
     font-family: Playfair Display;
